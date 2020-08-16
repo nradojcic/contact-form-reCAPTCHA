@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 0;
+  background: url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.contact-form {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+  width: 350px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: rgba(3, 14, 75, 0.95);
+}
+
+.contact-form h2 {
+  color: white;
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+.contact-form input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contact-form textarea {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  height: 80px;
+  background: transparent;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#submit-btn {
+  cursor: pointer;
+  width: 70%;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  margin-top: 1rem;
+  background: red;
+}
+
+#submit-btn:hover {
+  background-color: darkred;
+  font-weight: bold;
+}
+
+.g-recaptcha {
+  margin: 5px 25px;
+}
+
+.status {
+  font-size: 1rem;
+  color: green;
+  padding: 15px;
+}
+
+.status span {
+  color: red;
+  font-size: 1rem;
+}
