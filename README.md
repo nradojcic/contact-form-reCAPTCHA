@@ -1,5 +1,5 @@
 # contact-form-reCAPTCHA <https://nebojsa.ca/contact-form/>
-### Single page Contact Form with reCAPTCHA spam and robots protection. Sending email using PHP.
+### Sending email using PHP. Single page Contact Form with reCAPTCHA spam protection.
 
 **Problem:** How can I make it easier for visitors to my website to send me an email message directly from the webpage, without the need to switch to separate email app? Or to manually copy and enter my email address somewhere else? 
 
